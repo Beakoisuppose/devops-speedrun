@@ -3,7 +3,7 @@ name: CI Pipeline
 on:
   push:
     branches:
-      - main
+      - master  # Указываем master, если это ваша основная ветка
   pull_request:
     branches:
       - master
